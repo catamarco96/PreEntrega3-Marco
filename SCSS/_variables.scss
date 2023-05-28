@@ -1,0 +1,11 @@
+/*mixin para estilo de fuente*/
+@mixin font-raleway {
+    font-family: 'Raleway', sans-serif;
+  }
+  /*mixin para color de fondo*/
+  @mixin background-style($color) {
+    background-color: $color;
+  }
+/*variable para tamaño de imagenes*/
+$size-img: 300px;
+$breakpoint-mobile: 576px;
